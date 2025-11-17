@@ -3,8 +3,9 @@
 ---
 
 📊 Overview
-- An interactive Power BI dashboard built to analyze and visualize customer shopping patterns across product categories, age groups, subscription status, and shipping preferences.
-- It helps businesses understand revenue drivers, purchase behavior, and customer segments to make smarter marketing and inventory decisions.
+An interactive Power BI dashboard built to analyze and visualize customer shopping patterns across product categories, age groups, subscription status, and shipping preferences.
+
+It helps businesses understand revenue drivers, purchase behavior, and customer segments to make smarter marketing and inventory decisions.
 
 ---
 
@@ -64,7 +65,7 @@ Includes anonymized e-commerce shopping data:
 - Review Rating
 - Shipping Type
 - Order Count
-⚠️ Dataset is used only for educational and analytical demonstration.
+- ⚠️ Dataset is used only for educational and analytical demonstration.
 
 ---
 
@@ -84,3 +85,18 @@ Includes anonymized e-commerce shopping data:
 - Add Power BI drill-through pages for deeper profiling
 - Develop RFM Analysis for loyalty and retention strategies
 - Connect dashboard to live MySQL database for auto-refresh
+
+---
+
+### 🧑‍💻 Author
+**Yadhunandan C**  
+🎓 B.E. in Information Science | 💼 Aspiring Data Analyst & Power BI Developer  
+📍 Tumkur, Karnataka, India  
+
+📫 **Connect With Me**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/yadhunandan-c/)  
+[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/YadhunandanC)  
+[![Email](https://img.shields.io/badge/Email-gray?logo=gmail)](yadhunandan010@gmail.com)
+
+---
+![Dashboard Preview](https://github.com/YadhunandanC/Customer_Shopping_Behaviour_Dashboard/blob/main/Snapshot%20of%20Dashboard.png)
