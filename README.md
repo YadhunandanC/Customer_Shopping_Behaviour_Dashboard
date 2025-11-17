@@ -4,7 +4,6 @@
 
 📊 Overview
 An interactive Power BI dashboard built to analyze and visualize customer shopping patterns across product categories, age groups, subscription status, and shipping preferences.
-
 It helps businesses understand revenue drivers, purchase behavior, and customer segments to make smarter marketing and inventory decisions.
 
 ---
@@ -65,7 +64,8 @@ Includes anonymized e-commerce shopping data:
 - Review Rating
 - Shipping Type
 - Order Count
-- ⚠️ Dataset is used only for educational and analytical demonstration.
+  
+ > ⚠️ Dataset is used only for educational and analytical demonstration.
 
 ---
 
