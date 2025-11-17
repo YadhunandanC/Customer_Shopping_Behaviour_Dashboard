@@ -4,9 +4,8 @@
 
 # 📊 Overview
 
-An interactive Power BI dashboard built to analyze and visualize customer shopping patterns across product categories, age groups, subscription status, and shipping preferences.
-
-It helps businesses understand revenue drivers, purchase behavior, and customer segments to make smarter marketing and inventory decisions.
+-An interactive Power BI dashboard built to analyze and visualize customer shopping patterns across product categories, age groups, subscription status, and shipping preferences.
+-It helps businesses understand revenue drivers, purchase behavior, and customer segments to make smarter marketing and inventory decisions.
 
 ---
 
