@@ -1,137 +1,84 @@
-# Customer Shopping Behavior Analysis – Python | MySQL | Power BI
-
-This project analyzes customer shopping patterns using a full data workflow:
-Python → MySQL → SQL Queries → Power BI Dashboard.
-The goal is simple: extract meaningful insights about customer spending, product performance, and behavior across demographics and categories.
----
-# 📌 Overview
-
-Most dashboards online are just visuals with no real data pipeline behind them.
---This project actually goes end-to-end: 
---Load and clean data in Python
---Store the processed dataset in MySQL
---Run analytical SQL queries
---Build an interactive Power BI dashboard
---Generate insights backed by actual numbers
---If someone wants proof you understand analytics, this repo does it.
+# Customer_Shopping_Behavior_Dashboard
 
 ---
 
-# 📂 Dataset
+📊 Overview
+An interactive Power BI dashboard built to analyze and visualize customer shopping patterns across product categories, age groups, subscription status, and shipping preferences.
+It helps businesses understand revenue drivers, purchase behavior, and customer segments to make smarter marketing and inventory decisions.
 
-Contains customer purchase records
+---
 
-Fields include:
+# 🎯 Project Objective
+To deliver data-backed insights into customer behavior by identifying:
+High-revenue product categories
+Purchase trends across age groups and genders
+Subscription impact on spending
+Shipping preferences and order volume distribution
+Overall customer satisfaction through review ratings
 
-customer_id, gender, age_group, subscription_status
+---
 
-category, purchase_amount, review_rating
 
-shipping_type, order_id, etc.
+# 📈 Key Metrics (KPIs)
+KPI	Description
+Total Customers	Number of unique customers
+Average Purchase Amount	Mean spend per order
+Average Review Rating	Customer satisfaction score
+Revenue by Category	Category-level income generation
+Sales Count	Total orders placed
+Revenue by Age Group	Spending patterns by demographic segment
+Subscription %	Share of customers with active subscriptions
 
-You can replace with your actual dataset or anonymized sample.
+---
 
-🛠 Tools & Technologies
-Step	Tools Used
-Data Loading & Cleaning	Python (pandas, numpy)
-Database Storage	MySQL
-Querying	SQL (MySQL Workbench / Command Line)
-Data Visualization	Power BI
-Reporting	Power BI + Markdown README
-🚀 Project Steps (End-to-End Workflow)
-1️⃣ Load Dataset in Python
+# 💻 Dashboard Features
 
-Import CSV
+✅ Filters for Subscription Status, Gender, Category & Shipping Type
+✅ KPI cards for quick performance overview
+✅ Revenue & Sales breakdown by product category
+✅ Age-group based segmentation: revenue + sales
+✅ Subscription vs Non-subscription customer analysis
+✅ Clean, color-coded visual design for easy interpretation
 
-Handle missing values
+--- 
 
-Format datatypes
+# 🛠️ Tools & Technologies Used
 
-Feature creation (age groups, revenue metrics, etc.)
+Python (pandas) → Data loading, cleaning, preprocessing
+MySQL → Structured storage & querying
+SQL → Revenue, customer segmentation & summary queries
+Power BI Desktop → Dashboard design & visualization
+DAX → Calculated metrics & measures
 
-2️⃣ Insert Cleaned Data into MySQL
+--- 
 
-Create MySQL schema and table
+# 📂 Dataset Information
 
-Connect using sqlalchemy or mysql.connector
+Includes anonymized e-commerce shopping data:
+Customer ID, Gender, Age Group
+Subscription Status
+Product Category
+Purchase Amount
+Review Rating
+Shipping Type
+Order Count
+⚠️ Dataset is used only for educational and analytical demonstration.
 
-Insert cleaned records into the database
+---
 
-3️⃣ Run Analytical SQL Queries
+# 💡 Key Insights
 
-Examples included:
+🔸 Clothing generates the highest revenue and order count
+🔸 Young Adults and Adults make the most purchases
+🔸 Only 27% subscribers, yet they contribute more to revenue — strong upsell opportunity
+🔸 Accessories show strong sales but moderate revenue → potential pricing optimization
+🔸 Free Shipping significantly boosts order volume
 
-Revenue by category
+--- 
 
-Customer behavior by age group
+# 🚀 Future Scope
 
-Avg purchase amount
-
-Subscription vs non-subscriber comparison
-
-Null value checks and data audits
-
-4️⃣ Connect MySQL to Power BI
-
-Use the MySQL connector
-
-Load processed tables
-
-Build relationships
-
-Create measures using DAX
-
-5️⃣ Build Power BI Dashboard
-
-Key visuals include:
-
-Total Customers
-
-Average Purchase Amount
-
-Average Review Rating
-
-Revenue by Category
-
-Sales by Category
-
-Customer Subscription Breakdown
-
-Revenue & Sales by Age Group
-
-Filters: Gender, Category, Shipping Type, Subscription Status
-
-Screenshot of dashboard:
-[/Snapshots/Dashboard.png](https://github.com/YadhunandanC/Customer_Shopping_Behaviour_Dashboard/blob/main/Snapshot%20of%20Dashboard.png)
-
-📊 Dashboard Highlights
-
-Clothing dominates revenue and sales
-
-Only 27% customers are subscribed — huge opportunity
-
-Young Adults and Adults generate the highest revenue
-
-Footwear and Outerwear underperform (needs marketing or bundling)
-
-Average purchase value: $59.76
-
-Average rating: 3.75
-
-This isn't just a pretty dashboard — every insight is backed by queries.
-
-📈 Results & Insights
-
-Subscription Status Matters
-Subscribers spend more and purchase more frequently.
-
-Category Performance
-Clothing drives majority of the revenue.
-Outerwear is the worst performer.
-
-Age Group Trends
-Young Adults have the largest order count.
-Seniors give fewer transactions but higher average order value.
-
-Shipping Preference
-Cost-free delivery options significantly increase sales.
+Build customer segmentation using Clustering (ML)
+Add Power BI drill-through pages for deeper profiling
+Develop RFM Analysis for loyalty and retention strategies
+Connect dashboard to live MySQL database for auto-refresh
