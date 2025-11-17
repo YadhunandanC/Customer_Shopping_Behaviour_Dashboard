@@ -8,13 +8,13 @@ It helps businesses understand revenue drivers, purchase behavior, and customer 
 
 ---
 
-# 🎯 Project Objective
+### 🎯 Project Objective
 To deliver data-backed insights into customer behavior by identifying:
-High-revenue product categories
-Purchase trends across age groups and genders
-Subscription impact on spending
-Shipping preferences and order volume distribution
-Overall customer satisfaction through review ratings
+- High-revenue product categories
+- Purchase trends across age groups and genders
+- Subscription impact on spending
+- Shipping preferences and order volume distribution
+- Overall customer satisfaction through review ratings
 
 ---
 
