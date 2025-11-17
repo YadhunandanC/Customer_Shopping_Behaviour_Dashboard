@@ -3,25 +3,21 @@
 This project analyzes customer shopping patterns using a full data workflow:
 Python → MySQL → SQL Queries → Power BI Dashboard.
 The goal is simple: extract meaningful insights about customer spending, product performance, and behavior across demographics and categories.
-
-📌 Overview
+---
+# 📌 Overview
 
 Most dashboards online are just visuals with no real data pipeline behind them.
-This project actually goes end-to-end:
+--This project actually goes end-to-end: 
+--Load and clean data in Python
+--Store the processed dataset in MySQL
+--Run analytical SQL queries
+--Build an interactive Power BI dashboard
+--Generate insights backed by actual numbers
+--If someone wants proof you understand analytics, this repo does it.
 
-Load and clean data in Python
+---
 
-Store the processed dataset in MySQL
-
-Run analytical SQL queries
-
-Build an interactive Power BI dashboard
-
-Generate insights backed by actual numbers
-
-If someone wants proof you understand analytics, this repo does it.
-
-📂 Dataset
+# 📂 Dataset
 
 Contains customer purchase records
 
